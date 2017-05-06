@@ -1,0 +1,242 @@
+body {
+  font-family: "Oxygen", sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* General classes */
+
+/* Green button start */
+.roundedButton {
+  display: inline-block;
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 10px 25px 10px 25px;
+  /* little animation transition: color 0.5s, text-shadow 0.5s; */
+}
+
+.roundedButton:hover {
+  color: #000;
+  text-shadow: 1px 1px 1px green;
+}
+
+.greenBackgroundWhiteText {
+  background-color: #7bc34a;
+  color: #fff;
+}
+/* Green button end */
+
+/* Heading */
+h2 {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+
+/* HEADER */
+#header-nav {
+  border: 0;
+  border-radius: 0;
+  background-color: #7bc34a;
+  height: 100px;
+}
+
+#header-nav a {
+  display: block;
+}
+
+#logo-img {
+  background-color: white;
+  height: 80px;
+  width: 160px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px #333;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.2;
+  text-transform: uppercase;
+  width: 300px;
+  text-align: center;
+}
+
+#nav-list {
+  margin-top: 15px;
+}
+
+#nav-list a {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  border-radius: 30px;
+  transition: background-color 1s ease-out;
+  font-size: 16px;
+}
+
+#nav-list a:hover {
+  background-color: rgba(150, 250, 10, 0.5);
+  text-shadow: 1px 1px 1px #ddd;
+}
+
+#nav-list span {
+  margin-right: 10px;
+}
+
+/* Underline animation
+#nav-list a:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: transparent;
+  transition: margin-top .5s ease, background-color .5s ease;
+}
+
+
+#nav-list a:hover:after {
+  margin-top: 12px;
+  height: 2px;
+  background: white;
+}
+*/
+
+#main-content {
+  color: #999;
+}
+
+
+#findAndHelp {
+  height: 500px;
+  background-image: url('../images/hero-pet.png');
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+#findAndHelp p {
+  text-align: left;
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+#findAndHelp div {
+  font-size: 20px;
+}
+
+.wrapper {
+  width: 50%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#findAnimal, #help {
+  margin-top: 35px;
+}
+
+#adopt {
+  color: #333;
+  margin-top: 20px;
+}
+
+#animalsToAdopt {
+  height: 500px;
+}
+
+#animalsToAdopt a {
+  text-decoration: none;
+  color: #333;
+}
+
+.animalContainer {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.animalElement {
+  padding: 3px;
+}
+
+#animalsToAdopt div.animalElement:hover {
+  border: 3px solid #7bc34a;
+  border-radius: 8px;
+  padding: 0;
+}
+
+.animalPhoto {
+  height: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.animalName {
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.animalLocation {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  color: #aaa;
+  font-weight: normal;
+}
+
+.animalDescription {
+  color: #999;
+  margin-top: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#animal1 {
+  background-image: url('../images/sampledoggy.jpg');
+}
+
+#animal2 {
+  background-image: url('../images/sampledoggy2.jpg');
+}
+
+#animal3 {
+  background-image: url('../images/sampledoggy3.jpg');
+}
+
+#animal4 {
+  background-image: url('../images/sampledoggy4.jpg');
+}
+
+#animalsToAdopt {
+  margin-top: 30px;
+  height: 500px;
+}
+
+.animalPhoto {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+footer {
+  padding-bottom: 100px;
+}
